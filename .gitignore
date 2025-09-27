@@ -1,0 +1,120 @@
+# ------------- OS-generated files -------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*$py.class
+*.bak
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+*.log
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# ------------- Dependencies & package managers -------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json       # keep this line IF you don’t want lock files
+yarn.lock               # comment out if you DO want to track it
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.wheel
+pip-log.txt
+pip-delete-this-directory.txt
+venv/
+env/
+ENV/
+.venv
+
+# Java / Gradle / Maven
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+.gradle/
+gradle-app.setting
+.mvn/
+mvnw
+mvnw.cmd
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ------------- Environment & secrets -------------
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+config/secrets.*
+
+# ------------- Database & uploads -------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+uploads/
+temp/
+
+# ------------- Logs -------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ------------- Optional: keep these lines only if relevant -------------
+# Docker
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Compiled assets / front-end dist
+dist/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vercel
+.now
+*.tsbuildinfo

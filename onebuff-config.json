@@ -1,0 +1,39 @@
+{
+  "default_model": "qwen3-coder-plus",
+  "cost_mode": "normal",
+  "spawnable_agents": [
+    "file-picker",
+    "reviewer",
+    "researcher",
+    "thinker"
+  ],
+  "max_tokens": 4024,
+  "temperature": 0.7,
+  "ignore_patterns": [
+    "node_modules",
+    ".git",
+    "dist",
+    "build",
+    "*.log",
+    "__pycache__",
+    ".vscode",
+    ".next"
+  ],
+  "api_key": "Bdxto_Z1DybxzWwaWJmmyuEIUe0UXPsSOA4FtdM0UMANshgbsjNMskS9EzoosBW0GVG13Bvh4v4ptI03xLym5A",
+  "base_url": "https://portal.qwen.ai/v1",
+  "project_detection": {
+    "enabled": true,
+    "auto_context": true,
+    "max_depth": 3
+  },
+  "tool_settings": {
+    "max_file_size": 1048576,
+    "command_timeout": 30,
+    "search_max_results": 50
+  },
+  "agent_settings": {
+    "max_rounds": 5,
+    "enable_streaming": true,
+    "auto_spawn": true
+  }
+}
